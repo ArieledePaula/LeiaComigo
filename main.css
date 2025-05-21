@@ -75,3 +75,15 @@ header{
     line-height: 1.6;
     font-family: Montserrat;
 }
+
+.sobre{
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 5rem 1rem; 
+    font-size: 22px;
+    max-width: 800px; 
+    margin: 0 auto; 
+    line-height: 1.6;
+    font-family: Montserrat;
+}
