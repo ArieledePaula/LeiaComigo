@@ -1,9 +1,12 @@
-body{
+html, body{
     margin:0;
     padding: 0;
     background-color: #ffffff;
     color: #f4faf4;
     font-family: Montserrat;
+     height: 100%;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 header{
@@ -141,4 +144,23 @@ header{
     background-color: rgb(25, 11, 11);
   }
 
- 
+ @media (max-width: 768px) {
+  .cabecalho-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home, .sobre, .container1 {
+    padding: 3rem 1rem;
+  }
+
+  form {
+    width: 90%;
+    max-width: 100%;
+  }
+
+  nav a {
+    font-size: 16px;
+    padding: 8px 12px;
+  }
+}
