@@ -107,7 +107,8 @@ header{
   input[type="text"],
   input[type="email"],
   input[type="date"],
-  input[type="password"] {
+  input[type="password"] 
+  {
     display: block;
     width: 100%;
     margin-bottom: 15px;
